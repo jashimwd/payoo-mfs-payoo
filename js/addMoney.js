@@ -33,7 +33,7 @@ document.getElementById('btn-add-money')
             const newBalance = balanceNumber + addmoneyNumber;
 
             // update the DOM with updated balance
-            document.getElementById('account-balance').innerText = newBalance;
+            document.getElementById('account-balance').innerText = newBalance; 
         }
         else{
             alert('Failded to add money. Please try again later.')
